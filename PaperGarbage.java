@@ -1,2 +1,4 @@
-public class PaperGarbage extends Garbage {
+public class PaperGarbage extends Garbage
+{
+    
 }

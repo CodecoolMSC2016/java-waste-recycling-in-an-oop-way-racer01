@@ -1,2 +1,4 @@
-public class DustbinContentException extends Exception {
+public class DustbinContentException extends Exception
+{
+    
 }

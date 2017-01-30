@@ -1,2 +1,4 @@
-public class Garbage {
+public class Garbage
+{
+    
 }

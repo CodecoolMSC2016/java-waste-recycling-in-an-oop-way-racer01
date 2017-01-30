@@ -1,2 +1,4 @@
-public class Dustbin {
+public class Dustbin
+{
+    
 }
