@@ -124,15 +124,15 @@ public class Test {
         }
 
         // Uncomment this method. What happens when you try the tests?
-        //public void testDustbinOutSomethingWhichIsNotAGarbage() {
-        //        String myString = "This is NOT a garbage, right???";
-        //        Dustbin dustbin = new Dustbin("red");
-        //        boolean threw = false;
-        //        try {
-        //                dustbin.throwOutGarbage(myString);
-        //        } catch (DustbinContentException ex) {
-        //                threw = true;
-        //        }
-        //        assert threw;
-        //}
+        public void testDustbinOutSomethingWhichIsNotAGarbage() {
+                String myString = "This is NOT a garbage, right???";
+                Dustbin dustbin = new Dustbin("red");
+                boolean threw = false;
+                try {
+                        dustbin.throwOutGarbage(myString);
+                } catch (DustbinContentException ex) {
+                        threw = true;
+                }
+                assert threw;
+        }
 }
